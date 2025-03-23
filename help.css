@@ -1,0 +1,52 @@
+/* Help Section Styling */
+.help {
+    background: linear-gradient(135deg, #1e1e1e, #3a3a3a, #d4af37);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.help h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #d4af37; /* Gold */
+}
+
+
+.help p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #f4e1d2; /* Soft pink */
+}
+
+
+.help-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.help-card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+    color: #333;
+}
+
+
+.help-card:hover {
+    transform: translateY(-5px);
+    background: #f4e1d2; /* Soft pink */
+}
