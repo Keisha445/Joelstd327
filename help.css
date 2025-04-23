@@ -1,3 +1,46 @@
+/* Navbar Styling */
+.navbar {
+    background: #0D4D55;  /* Background color */
+    padding: 1rem 0;
+    text-align: center;
+    color: #d4af37
+}
+
+/* Website title */
+.navbar h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar span {
+    color: yellow;  /* Highlighted color */
+}
+
+/* Navigation links */
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
 /* Help Section Styling */
 .help {
     background: linear-gradient(135deg, #1e1e1e, #3a3a3a, #d4af37);
@@ -49,4 +92,20 @@
 .help-card:hover {
     transform: translateY(-5px);
     background: #f4e1d2; /* Soft pink */
+}
+
+/*Footer*/
+footer{
+    background: rgb(13, 77, 85);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.socialmedia1 ul {
+    display: flex;
+    flex: 1 1 26rem;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 4rem;
 }
