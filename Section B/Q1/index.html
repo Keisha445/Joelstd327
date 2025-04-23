@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>My Gallery</h1>
+    <nav>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Responsive Gallery</h2>
+    <div class="gallery">
+      <img src="imgs/max-bohme-auRf3GHje2U-unsplash.jpg" alt="Gallery Image 1">
+      <img src="imgs/Approaching midnight.jpg" alt="Gallery Image 2">
+      <img src="imgs/mansionandcars.jpg" alt="Gallery Image 3">
+      <img src="imgs/Greek-Yogurt-Parfait-with-fruit.jpg" alt="Gallery Image 4">
+      <img src="imgs/elephant-unsplash.jpg" alt="Gallery Image 5">
+      <img src="imgs/lion-unsplash.jpg" alt="Gallery Image 6">
+    </div>
+  </div>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
